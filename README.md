@@ -33,4 +33,8 @@ docker stop <container_id>    # Stop a running container
 docker restart <container_id> # Restart a container
 docker rm <container_id>      # Remove a container
 docker rmi <image_id>         # Remove an image
+docker logs <container_id>    # Fetch the logs of a container
+docker push <image_name>      # Push an image to the registry
+docker volume ls              # List all the volumes
+docker-compose up             # Create and start the containers defined in the docker-composefi
 ```
