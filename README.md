@@ -38,3 +38,15 @@ docker push <image_name>      # Push an image to the registry
 docker volume ls              # List all the volumes
 docker-compose up             # Create and start the containers defined in the docker-composefi
 ```
+
+```bash
+FROM node:latest
+
+COPY app/
+
+WORKDIR app/
+
+EXPOSE 3000
+
+CMD ["node","index.js"] 
+```
